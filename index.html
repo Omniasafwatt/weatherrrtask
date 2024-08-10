@@ -1,0 +1,137 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>  
+
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container px-5">
+                <div class="logo d-flex mx-5">
+                    <img src="imgs/logo.png" class="logo-icon">
+              <a class="navbar-brand pe-5 " href="#">
+                <div class="logo-desc">
+                <h1>Weather</h1>
+                <small>tagline goes here</small>
+            </div>
+              </a>
+            </div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-5 ">
+                  <li class="nav-item d-flex mx-5 ">
+                    <a class="nav-link active px-4"  href="#">Home</a>
+                    <a class="nav-link px-4 "  href="#">News</a>
+                    <a class="nav-link px-4"  href="#">Live cameras</a>
+                    <a class="nav-link px-4"  href="#">Photos</a>
+                    <a class="nav-link px-4"  href="../contact.html">Contact</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <div class="weather-body">
+            <div class="container p-5">
+                <div class="search-bar d-flex mb-5">
+                    <input type="text" placeholder="Find Your location..." id="search">
+                    <button>Find</button>
+                </div>
+                <div class="raw g-0 d-flex m-3">
+                    <div class="today col-md-4 rounded-start">
+                        <div class="day d-flex justify-content-between rounded-start">
+                            <p id="today-name">Monday</p>
+                            <span>
+                            <span id="today-num">22</span>
+                            <span id="today-month">january</span>
+                        </span>
+                        </div>
+                        <div id="location" class="location">Cairo</div>
+                        <div class="degree d-flex">
+                            <div class="num">
+                                <span id="today-temp">21</span><sup>o</sup>C
+                            </div>
+                            <div class="degree-icon" >
+                                <img src="imgs/116.webp" alt="" width="90" id="today-img-icon">
+                            </div>
+                        </div>
+                        <div class="custom" id="custom">Partly cloudy</div>
+                        <div class="icons rounded-start">
+                        <span >
+                            <img src="imgs/icon-umberella.png" alt="">
+                            <span id="humidity">20%</span>
+                        </span>
+                        <span >
+                            <img src="imgs/icon-wind.png" alt="">
+                            <span id="wind">18km/h</span>
+                        </span>
+                        <span >
+                            <img src="imgs/icon-compass.png" alt="">
+                            <span id="wind-direc">e</span>
+                        </span>
+                    </div>
+                    </div>
+                    <div class="item col-md-4 text-center">
+                        <div class="item-day d-flex justify-content-center">
+                            <p>Monday</p>
+                        </div>
+                        <div >
+                            <img class="item-icon" src="imgs/116.webp" alt="" width="90">
+                        </div>
+                        <div class="sup" >
+                            <span class="item-num">18.7</span><sup>o</sup>C
+                        </div>
+                        <small><span class="item-deg">12.2</span><sup>o</sup></small>
+                        <div class="item-custom">Partly cloudy</div>
+                    </div>
+                    <div class="item col-md-4 text-center bg rounded-end">
+                        <div class="item-day d-flex justify-content-center bgp rounded-end">
+                            <p>Monday</p>
+                        </div>
+                        <div >
+                            <img class="item-icon" src="imgs/116.webp" alt="" width="90">
+                        </div>
+                        <div class="sup" >
+                           <span class="item-num">18.7</span><sup>o</sup>C
+                        </div>
+                        <small><span class="item-deg">12.2</span><sup>o</sup></small>
+                        <div class="item-custom">Partly cloudy</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row p-5">
+                    <div class="col-md-8">
+                        <div class="subsc-bar d-flex mb-5">
+                            <input type="text" placeholder="Enter your email to subscribe..." id="search">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row-icon p-2 g-0">
+                                <i class="fa fa-brands fa-facebook"></i>
+                                <i class="fa fa-brands fa-twitter"></i>
+                                <i class="fa fa-brands fa-google-plus"></i>
+                                <i class="fa fa-brands fa-pinterest"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <p class="">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        
+        <script src="js/main.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    </body>
+</html>
